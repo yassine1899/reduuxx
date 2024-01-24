@@ -1,0 +1,91 @@
+/* src/App.css */
+@import url(https://fonts.googleapis.com/css?family=Lemon:regular);
+.App {
+  text-align: center;
+  color: rgb(26, 26, 38);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+
+h1 {
+  color: #fb6161;
+  font-size: 10rem;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 60%;
+  
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+.list{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+h3{
+  color: #544a7d;
+}
+
+button {
+  
+  cursor: pointer;
+  all: unset;
+  border: 1px black solid;
+  margin-left: 10px;
+  padding: 5px ;
+   border-radius: 5px;
+   transition: transform 0.3s;
+   background: #544a7d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #61ff52, #4a747d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #63ff52, #4a747d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+}
+button:hover{
+  transform: scale(1.2);
+}
+input{
+ border: 1px black solid;
+ border-radius: 5px;
+ padding: 15px;
+ color: #544a7d;
+ font-size: 1.2rem;
+ font-weight: 600;
+ background: #544a7d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #63ff52, #4a747d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #52ff52, #4a757d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+input:hover{
+   transform: scale(1.2);
+}
+
+#root{
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg?region=0,0,1920,1080&width=960");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.todolist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
